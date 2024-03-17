@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript splice array method</title>
+</head>
+<body>
+    <div class="container">
+        <button class="btn" onclick="Splice()">Which course you want to skip in this semester</button>
+    </div>
+    <script>
+        let user=["0.HTML","1.CSS","2.JAVASCRIPT","3.NODE JS","4.RAECT","5.PYTHON"];
+        document.write(user);
+      function Splice(){
+        let userInput=prompt("Enter the index no and the next course name you want to skip")
+        user.splice(prompt(userInput));
+        document.write(user);
+
+      }
+     
+    </script>
+</body>
+</html>
